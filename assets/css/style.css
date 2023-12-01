@@ -1,0 +1,58 @@
+:root {
+    --dark: rgb(63, 61, 82);
+    --lightgray: rgb(77, 77, 77);
+    --yellow: rgb(228, 177, 36);
+}
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    color: white;
+    background-color: var(--dark);
+}
+header a {
+    color: white;
+    padding: 10px;
+
+}
+nav {
+    width: 100%;
+    display: flex;
+    background-color: var(--yellow);
+    font-size: 130%;
+    justify-content: flex-end;
+    border-style: solid;
+    border-color: black;
+    padding: 20px;
+}
+
+.logo {
+    max-width: 20%;
+}
+.navbar {
+    align-items: center;
+    font-size: large;
+}
+
+.navlinks {
+    list-style-type: none;
+    display: flex;
+    background-color: var(--yellow);
+   
+}
+
+.connected {
+    background-image: url(../images/4.jpg);
+    padding: 200px;
+}
+
+h1 {
+    font-size: 300%;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    background-color: black;
+    color: var(--yellow)
+
+}
