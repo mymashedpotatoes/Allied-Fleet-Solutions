@@ -3,49 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <title>Allied Fleet Solutions</title>
 </head>
 <body>
     <header>
-        <a class="logo" href="https://www.alliedfleetsolutions.com/"> <img src="./assets/images/Allied+Fleet+Solutions+Logo+(1).png" alt="Allied Fleet Solutions logo"></a>
-        <nav>
-            <ul class="navlinks">
-                <li>
-                    <a class="nav-items" href="#home">Home</a>
-                </li>
-                <li>
-                    <a class="navitems" href="#about-us">About Us</a>
-                </li>
-                <li>
-                    <a class="nav-items" href="#products">Products</a>
-                </li>
-                <li>
-                    <a class="nav-items" href="#contact-us">Contact Us</a>
-                </li>
-                <li>
-                    <a class="nav-items" href="https://alliedfleetsolutions.telematics.guru/Account?ReturnUrl=%2f">GPS Login</a>
-                </li>
-            </ul>
-        </nav>
+        <div>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Allied Fleet Solutions</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#about-us">About Us</a>
+                        <a class="nav-link" href="#products">Products</a>
+                        <a class="nav-link" href="#contact-us">Contact Us</a>
+                        <a class="nav-link" href="https://alliedfleetsolutions.telematics.guru/Account?ReturnUrl=%2f">GPS Login</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <a href="https://www.alliedfleetsolutions.com/"> <img src="./assets/images/111111.png" alt="Allied Fleet Solutions logo" class="logo1"></a>
+        <h1>STAY CONNECTED WITH YOUR FLEET</h1>
+
     </header>
     <section id="home" class="connected">
-        <h1>STAY CONNECTED WITH YOUR FLEET</h1>
+        <img src="./assets/images/4.jpg" class="yard">
     </section>
-    <section>
+    <section class="whatWeDo">
         <h2>WHAT WE DO</h2>
         <p>With global coverage spanning over 160 countries, you can stay connected no matter where your assets are. We utilize a cloud-based tracking system and a user-friendly software application to provide easy access to real-time data and analytics.</p>
         <p>Simplify fleet management with our practical and cost effective system.</p>
     </section>
-    <section>
+    <div class="map-container">
+    <section class="map">
+        <img src="./assets/images/AFS+Live+Map.png" class="live-map">
         <h3>LIVE TRACKING MAP</h3>
         <p>Our Live Tracking Map gives you real-time visibility, allowing you to see exact locations of any asset at any moment.</p>
         <p>Our Custom Reports enable you to identify which assets are being utilized effectively and which are not.</p>
         <p>With out innovative Run Hour Monitor feature, you can prevent under-utilization and hoarding, optimizing your fleet's preformance and reduring unecessary costs.</p>
+       
     </section>
+    </div>
     <section>
-        <h4>APPLICATIONS</h4>
+        <h4 class="apps">APPLICATIONS</h4>
+             <button>Learn More</button>
         <ul>
             <li>Battery Powered Device</li>
             <li>Heavy Equipment</li>
@@ -56,9 +66,10 @@
             <li>Trailers</li>
             <li>And More!</li>
         </ul>
+   
     </section>
-    <section id="about-us">
-        <img src="./assets/images/Allied+Fleet+Solutions+Logo+(1).png">
+    <section id="about-us" class="about-us">
+        <img src="./assets/images/0.png" class="logo2">
         <p>Allied Fleet Solutions is a leading provider of construction optimization services and innovative fleet management solutions. With a team of industry experts, we specialize in offering expert consulting services to enhance construction operations. Our innovative fleet management solutions are designed to streamline workflows, improve efficiency, and maximize productivity.</p>
         <h5>CONTACT</h5>
         <ul>
@@ -69,5 +80,6 @@
     <footer>
         <p>© 2023 Allied Fleet Solutions. All Rights Reserved.</p>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 </html>

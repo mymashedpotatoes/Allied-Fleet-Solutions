@@ -4,55 +4,150 @@
     --yellow: rgb(228, 177, 36);
 }
 * {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header {
     color: white;
-    background-color: var(--dark);
+    background-color: rgb(63, 61, 82);
+    background-image: url(../images/eqw.Caterpillar-3231584.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 header a {
     color: white;
-    padding: 10px;
+    padding: 3%;
 
-}
-nav {
-    width: 100%;
-    display: flex;
-    background-color: var(--yellow);
-    font-size: 130%;
-    justify-content: flex-end;
-    border-style: solid;
-    border-color: black;
-    padding: 20px;
-}
-
-.logo {
-    max-width: 20%;
 }
 .navbar {
-    align-items: center;
-    font-size: large;
+    background: linear-gradient(to bottom, var(--dark), rgba(63, 61, 82, 0));
+    padding: 2%;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
-.navlinks {
-    list-style-type: none;
-    display: flex;
-    background-color: var(--yellow);
-   
+.navbar-nav a {
+    color: black;
 }
 
-.connected {
-    background-image: url(../images/4.jpg);
-    padding: 200px;
+.logo1 {
+    width: 20%;
+    display: block;
+    margin: auto;
+    padding-bottom: 10%;
 }
 
+.yard {
+    width: 70%;
+    float: left;
+    padding: 5%;
+    
+}
+
+body {
+    font-size: 1.5vw;
+}
 h1 {
-    font-size: 300%;
-    position: absolute;
-    top: 50%;
     right: 50%;
-    background-color: black;
-    color: var(--yellow)
+    color: var(--yellow);
+    text-align: center;
+    font-weight: bolder;
+    background: linear-gradient(to top, var(--dark), rgba(63, 61, 82, 0));
+    margin-bottom: 0%;
+
+
+}
+.connected {
+    background-color: var(--dark);
+}
+h2 {
+    color: var(--yellow);
+    font-weight: bolder;
+}
+button {
+    position: relative;
+    width: 10%;
+    float: right;
+    height: auto;
+    border-radius: 20px;
+    background: var(--yellow);
+    color: white;
+}
+.map {
+    background-color: var(--yellow);
+    color: var(--dark);
+}
+.live-map {
+    float: right;
+    width: 60%;
+    padding: 2.5%;
+}
+
+.map-container p {
+    padding:  3%;
+    width: 40%;
+    text-align: center;
+}
+
+.whatWeDo{
+    background-color: var(--dark);
+    padding: 5%;
+    color: black;
+}
+
+
+.about-us {
+    background-color: white;
+    padding: 5%;
+}
+
+.about-us p {
+    padding: 2%;
+}
+
+.logo2 {
+    max-width: 20%;
+    float: left;
+}
+footer {
+    background-color: var(--dark);
+    text-align: center;
+    padding: 40px;
+}
+
+@media screen and (min-width: 993px) {
+    nav {
+        font-size: 25px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    nav {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        font-size: 11px;
+    }
+    h1 {
+        font-size: 400%;
+    }
+    .connected {
+        height: auto;
+        width: 100%;
+    }
 
 }
